@@ -23,7 +23,13 @@ After cloning repo into local machine, run <code>docker compose up</code>
   
   The game of war was built using three objects: Card, Deck and Game. The Card object models a card with a suit and a value property. The Deck contains fifty two cards with the standard suits and values. The Game object contains all of the logic for the game, and is responsible for the actual execution of the game. The Game object takes in two separate decks, one for each player. Class and method-level comments contain more in-depth details of the specific implementations. 
   
-  # Design Limitations and Further Considerations
+  # Game Design Limitations 
+  There a couple key limitations to my game design: 
   
+  First, to keep a consistent design, it might be helpful to create a 'Player' object that would keep track of its own cards instead of having a list of cards represent the player itself. Because the logic was fairly simple for this game, I kept my implementation as-is. If I wanted to expand the functionalities of the game, it would make sense to factor more logic out to a Player class.
+  
+  Second, it's possible for the game to terminate without a one player colelcting 52 cards, even though the adequate end-game condition is met, and the proper winner is displayed. For example, suppose player one has 2 cards and player two has 50 cards at the start of a round. If the players flip their cards and receive a match, then player two will instantly win because player one does not have 3 total cards to gamble in that round. Within the logic of the game, player 2 never picks up those cards, but they are correctly designated as the winner. I wasn't entirely sure if this meant the second player would automatically win, but the rules online didn't specify so I assumed so. 
+  
+ # App Design Limitations and Further Considerations
   
 
