@@ -19,7 +19,11 @@ After cloning repo into local machine, run <code>docker compose up</code>
   
   3. '/lifetime-wins' -- Displays the lifetime wins stored in the MySQL database
   
-  # Game Design
+  # Basic Game Design
+  
+  The game of war was built using three objects: Card, Deck and Game. The Card object models a card with a suit and a value property. The Deck contains fifty two cards with the standard suits and values. The Game object contains all of the logic for the game, and is responsible for the actual execution of the game. The Game object takes in two separate decks, one for each player. Class and method-level comments contain more in-depth details of the specific implementations. 
+  
+  # Design Limitations and Further Considerations
   
   
 
