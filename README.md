@@ -33,7 +33,7 @@ After cloning repo into a local machine, run <code>docker compose up</code>
   
  # App Design Limitations and Further Considerations
   Because of time constraints, I was only able to write a few basic unit tests for the game's functionalities. If I spent more time on the project, I would
-  have restrucutred my Flask app to follow a Factory Pattern design and conduct tests on the app's different endpoints. Moreover, I would have liked to implement a UI that showcased the progress of each player at each round. Within the game class, the return value of each round is never used, but it could be if I were to create this UI.
+  have restrucutred my Flask app to follow a Factory Pattern design and conducted tests on the app's different endpoints. Moreover, I would have liked to implement a UI that showcased the progress of each player at each round. Within the game class, the return value of each round is never used, but it could be if I were to create this UI.
   
   
   
