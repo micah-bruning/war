@@ -4,7 +4,7 @@ I implemented WAR using Python's Flask framework. For the database, I used a mys
 
 # Running the Application
 
-After cloning repo into local machine, run <code>docker compose up</code>
+After cloning repo into a local machine, run <code>docker compose up</code>
   at the root directory. This will run the docker image as a container. 
   
   Head to localhost:8000 on your machine to view the home-page of the application. Alternatively, send a GET request to 
