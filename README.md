@@ -6,7 +6,7 @@ I implemented WAR using Python's Flask framework. For the database, I used a mys
 
 After cloning the repo into a local machine, open a terminal or cmd at Aspen Capital/ and run <code>docker compose up</code>. This will run the docker image as a container. 
   
-  Head to localhost:8000 on your machine to view the home-page of the application. Alternatively, send a GET request to 
+  Head to localhost:8000 on a web-browser to view the home-page of the application. Alternatively, send a GET request to 
   the end-points listed below using the <code>curl localhost:8000/<endpoint></code> command in a terminal. The application returns
   basic html templates, so it is strongly advised to access it through a web-browser.
   
