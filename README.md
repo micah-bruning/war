@@ -1,3 +1,8 @@
-# War Submission
+# Running the Application
 
-Here is
+After cloning repo into local machine, run 
+
+<code> docker compose up <code> at the root directory
+
+
+# Further Improvements
