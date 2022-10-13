@@ -2,7 +2,7 @@
 
 After cloning repo into local machine, run 
 
-<code> docker compose up <code> 
+<code>docker compose up<code> 
 
 at the root directory
   
