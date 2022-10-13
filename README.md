@@ -1,6 +1,6 @@
 # Overview
 
-I implemented WAR using Python's Flask framework. For the database, I used a mysql db in a docker container. 
+I implemented WAR using Python's Flask framework. For the database, I used a mysql db in a docker container.
 
 # Running the Application
 
